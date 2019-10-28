@@ -21,8 +21,24 @@ def read_excel(file_name):
     df = pd.read_excel(file_name)
     return df
 
+def output_excel(df):
+    a = []
+    b = []
+    for key, value in df.items():
+        a.append(key)
+        b.append(value)
+
+    dit = {'Contributor':a, 'Numbers of comments':b}
+    writer = pd.ExcelWriter('output.xlsx',engine='xlsxwriter')
+    df = pd.DataFrame(dit)
+    #columns参数用于指定生成的excel中列的顺序
+    df.to_excel(writer, columns=['Contributor','Numbers of comments'], index=False,encoding='utf-8',sheet_name='Sheet')
+    writer.save()
+    df.to_csv(r'./1.csv',columns=['Contributor','Numbers of comments'],index=False,sep=',')
+
 
 if __name__ == "__main__":
     excel = read_excel('closed_comment.xlsx') 
     commenter_comments_dict = get_commenter_comments_dict(excel)
     print(commenter_comments_dict)
+    output_excel(commenter_comments_dict)
