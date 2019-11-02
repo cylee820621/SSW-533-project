@@ -14,9 +14,10 @@ def tokenize(text):
     str1 = text.lower().strip()
     str2 = str1.translate(str.maketrans('', '', string.punctuation))     # segments the lowercased string into tokens
     match = nltk.word_tokenize(str2)                           # word_tokenize
+    filtered_sentence = [w for w in match if not w in stop_words] 
     # tagged_token is a list of (word, pos_tag)
     # define a mapping between wordnet tags and POS tags as a function
-    token_count = nltk.FreqDist(match)
+    token_count = nltk.FreqDist(filtered_sentence)
     return token_count
 
 def file_open(path):
