@@ -54,7 +54,7 @@ def output_excel(df):
 
 
 if __name__ == "__main__":
-    excel = read_excel('closed_comment.xlsx') 
+    excel = read_excel('data\closed_comment.xlsx') 
     commenter_comments_dict = get_commenter_comments_dict(excel)
     print(commenter_comments_dict)
     output_excel(commenter_comments_dict)

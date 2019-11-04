@@ -28,7 +28,7 @@ def file_open(path):
 
 if __name__ == "__main__":
 
-    path = "closed_comment.csv"
+    path = "data\closed_comment.csv"
     comments_file = file_open(path)
     new = pd.DataFrame(comments_file,columns = ["issue_ID","commenter","time","comment_content","tokens"])   
     for index, text in enumerate(new["comment_content"]):
