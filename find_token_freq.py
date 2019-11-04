@@ -22,14 +22,14 @@ def tokenize(text):
 
 def file_open(path):
     print('Start read data from file')
-    input_read = pd.read_csv(path,skip_blank_lines=True) 
+    input_read = pd.read_excel(path,skip_blank_lines=True) 
     df = pd.DataFrame(input_read)
     print('Read data')
     return df
 
 if __name__ == "__main__":
 
-    path = "data\closed_comment.csv"
+    path = "data\closed_comment.xlsx"
     comments_file = file_open(path)
     i=0
     token = []
