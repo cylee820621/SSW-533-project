@@ -122,6 +122,5 @@ if __name__ == "__main__":
     total_post = total_posts(excel)
     commentor_words_dict = commentor_words(excel)
     commenter_comments_dict = get_commenter_comments_dict(excel)
-    print(commenter_comments_dict)
     awd = creat_actvity_words_dict(commentor_words_dict,commenter_comments_dict, total_post)
-    creat_actvity_words_dict_excel(awd)
+    #creat_actvity_words_dict_excel(awd)
