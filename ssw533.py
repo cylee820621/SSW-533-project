@@ -111,17 +111,17 @@ def creat_actvity_words_dict_excel(awd):
     writer = pd.ExcelWriter('Activity.xlsx',engine='xlsxwriter')
     df = pd.DataFrame(dit)
     #columns参数用于指定生成的excel中列的顺序
-    df.to_excel(writer, columns=['Contributor','Activity','Words'], index=False,encoding='utf-8',sheet_name='Sheet')
+    df.to_excel(writer, columns=['Contributor','Activity','Words'], index=True,encoding='utf-8',sheet_name='Sheet')
     writer.save()
     #df.to_csv(r'output_Contributor_comments.csv',columns=['Contributor','Numbers of comments'],index=False,sep=',')
 
 if __name__ == "__main__":
-    excel = read_excel('data/closed_comment_test.xlsx') 
+    excel = read_excel('data/closed_comment.xlsx') 
     #output_excel(commenter_comments_dict)
     #sentiment_dict = Contributor_total_sentiment(excel)
     total_post = total_posts(excel)
     commentor_words_dict = commentor_words(excel)
     commenter_comments_dict = get_commenter_comments_dict(excel)
+    print(commenter_comments_dict)
     awd = creat_actvity_words_dict(commentor_words_dict,commenter_comments_dict, total_post)
-    print(awd)
     creat_actvity_words_dict_excel(awd)
