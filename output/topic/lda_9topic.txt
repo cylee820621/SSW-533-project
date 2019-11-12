@@ -1,0 +1,17 @@
+[(0, '0.021*"const" + 0.015*"0" + 0.009*"thread" + 0.009*"libsystembdylib" + 0.008*"int" + 0.007*"char" + 0.007*"10" + 0.007*"4" + 0.007*"5" + 0.007*"compatibility"'),
+
+ (1, '0.027*"reference" + 0.020*"undefined" + 0.012*"screen" + 0.009*"function" + 0.006*"qt5" + 0.005*"ack" + 0.005*"09" + 0.004*"106" + 0.004*"creator" + 0.004*"explicitly"'), 
+
+(2, '0.068*"checking" + 0.049*"yes" + 0.019*"whether" + 0.018*"c" + 0.015*"g" + 0.013*"gcc" + 0.007*"library" + 0.007*"define" + 0.007*"compiler" + 0.007*"result"'), 
+
+(3, '0.023*"error" + 0.019*"directory" + 0.018*"make" + 0.016*"file" + 0.013*"install" + 0.012*"stdallocator" + 0.009*"configure" + 0.008*"git" + 0.007*"stdchartraits" + 0.006*"boost"'), 
+
+(4, '0.017*"issue" + 0.013*"bitcoin" + 0.009*"problem" + 0.008*"version" + 0.007*"still" + 0.006*"try" + 0.006*"file" + 0.006*"fixed" + 0.006*"using" + 0.006*"time"'), 
+
+(5, '0.011*"block" + 0.010*"memory" + 0.010*"blocks" + 0.009*"email" + 0.009*"directly" + 0.008*"reply" + 0.008*"view" + 0.007*"wrote" + 0.007*"thread" + 0.006*"data"'), 
+
+(6, '0.014*"wallet" + 0.012*"transaction" + 0.012*"address" + 0.010*"transactions" + 0.008*"block" + 0.007*"key" + 0.007*"use" + 0.006*"bitcoin" + 0.006*"change" + 0.005*"fee"'), 
+
+(7, '0.023*"error" + 0.022*"block" + 0.015*"new" + 0.015*"threadrpcserver" + 0.014*"tx" + 0.014*"version" + 0.011*"message" + 0.011*"0" + 0.010*"received" + 0.009*"added"'), 
+
+(8, '0.010*"line" + 0.010*"rpc" + 0.009*"command" + 0.007*"default" + 0.006*"merged" + 0.006*"bitcoind" + 0.006*"0" + 0.005*"window" + 0.005*"use" + 0.005*"call"')]

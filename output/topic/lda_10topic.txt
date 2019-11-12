@@ -1,0 +1,19 @@
+[(0, '0.044*"line" + 0.022*"file" + 0.013*"failed" + 0.013*"ip" + 0.013*"error" + 0.012*"tor" + 0.012*"proxy" + 0.010*"assertion" + 0.009*"unknown" + 0.009*"function"'),
+ 
+ (1, '0.031*"issue" + 0.017*"closing" + 0.012*"code" + 0.010*"pull" + 0.010*"please" + 0.009*"fixed" + 0.009*"request" + 0.008*"bitcoin" + 0.007*"close" + 0.007*"fix"'),
+
+(2, '0.013*"bitcoin" + 0.008*"problem" + 0.008*"using" + 0.008*"use" + 0.008*"issue" + 0.006*"file" + 0.006*"version" + 0.006*"still" + 0.006*"wallet" + 0.006*"running"'),
+
+(3, '0.058*"key" + 0.027*"keys" + 0.024*"private" + 0.024*"closed" + 0.020*"added" + 0.018*"fixed" + 0.016*"20140417" + 0.016*"keypool" + 0.009*"public" + 0.009*"kb"'), 
+
+(4, '0.029*"reference" + 0.026*"accepted" + 0.021*"undefined" + 0.018*"function" + 0.012*"screen" + 0.012*"lukejr" + 0.011*"nonstandard" + 0.010*"overflow" + 0.007*"tray" + 0.006*"meant"'), 
+
+(5, '0.062*"checking" + 0.037*"yes" + 0.018*"whether" + 0.016*"c" + 0.014*"g" + 0.012*"gcc" + 0.011*"error" + 0.009*"stdallocator" + 0.007*"file" + 0.007*"define"'), 
+
+(6, '0.024*"block" + 0.024*"error" + 0.017*"threadrpcserver" + 0.017*"0" + 0.017*"new" + 0.017*"version" + 0.016*"tx" + 0.012*"message" + 0.011*"received" + 0.008*"processblock"'),
+
+(7, '0.017*"transaction" + 0.016*"address" + 0.016*"block" + 0.014*"transactions" + 0.011*"blocks" + 0.010*"wallet" + 0.008*"time" + 0.007*"fee" + 0.007*"network" + 0.007*"addresses"'), 
+
+(8, '0.024*"const" + 0.016*"0" + 0.014*"thread" + 0.010*"libsystembdylib" + 0.009*"int" + 0.008*"5" + 0.008*"10" + 0.008*"4" + 0.007*"char" + 0.007*"email"'), 
+
+(9, '0.019*"boost" + 0.019*"build" + 0.018*"git" + 0.018*"install" + 0.017*"make" + 0.011*"building" + 0.011*"configure" + 0.010*"ubuntu" + 0.009*"installed" + 0.009*"version"')]
