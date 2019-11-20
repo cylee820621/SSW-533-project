@@ -1,9 +1,0 @@
-[(0, '0.008*"libsystembdylib" + 0.007*"thread" + 0.006*"compatibility" + 0.006*"undefined" + 0.006*"reference" + 0.005*"stdallocator" + 0.005*"10" + 0.005*"char" + 0.004*"000" + 0.004*"fixed" + 0.003*"boostdetailvariantvoid" + 0.003*"100" + 0.003*"orgbitcoinbitcoin" + 0.003*"stdchartraits" + 0.003*"bitcoinqt"'), 
-
-(1, '0.009*"thread" + 0.007*"transaction" + 0.007*"email" + 0.006*"reply" + 0.006*"view" + 0.006*"directly" + 0.005*"wrote" + 0.004*"fee" + 0.004*"github" + 0.004*"lock" + 0.004*"—" + 0.003*"account" + 0.003*"gdb" + 0.003*"comment" + 0.003*"cnode"'), 
-
-(2, '0.035*"checking" + 0.014*"error" + 0.011*"file" + 0.010*"whether" + 0.008*"boost" + 0.008*"make" + 0.007*"build" + 0.007*"line" + 0.006*"configure" + 0.006*"gcc" + 0.006*"install" + 0.005*"version" + 0.005*"library" + 0.004*"failed" + 0.004*"directory"'), 
-
-(3, '0.018*"block" + 0.017*"error" + 0.013*"tx" + 0.013*"version" + 0.013*"threadrpcserver" + 0.012*"new" + 0.009*"message" + 0.008*"received" + 0.007*"added" + 0.007*"bytes" + 0.006*"key" + 0.006*"processblock" + 0.006*"updatetip" + 0.006*"methodgetreceivedbyaddress" + 0.006*"accepted"'),
-
- (4, '0.009*"issue" + 0.009*"bitcoin" + 0.006*"wallet" + 0.005*"use" + 0.005*"problem" + 0.004*"time" + 0.004*"still" + 0.004*"block" + 0.004*"get" + 0.004*"using" + 0.004*"code" + 0.004*"need" + 0.004*"address" + 0.003*"transactions" + 0.003*"make"')]

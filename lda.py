@@ -62,7 +62,7 @@ stop = set(stopwords.words('english'))
 exclude = set(string.punctuation)
 lemma = WordNetLemmatizer()
 
-stop.update(('11','make','100','13','void','threadrpcserver','rw','qt','afaik','theuni','000','10','20140417','diff','boostsystemerrorcode','maino','intin','stdallocator','stdchartraits','char','g','c','int','0','1','2','3','4','5','6','7','8','9','const','yes','would', 'like', 'think', 'cassandra', 'mod_mbox', 'apache', 'jira', 'could', 'its', 'one', 'hi', 'thats', 'youre', '2', '3', 'e', '3d', 'see', 'im', 'youre', 'sounds', 'want', 'totally', '1', 'thanks', 'really', 'great', 'also'))
+stop.update(('bitcoin','11','make','100','13','void','threadrpcserver','rw','qt','afaik','theuni','000','10','20140417','diff','boostsystemerrorcode','maino','intin','stdallocator','stdchartraits','char','g','c','int','0','1','2','3','4','5','6','7','8','9','const','yes','would', 'like', 'think', 'cassandra', 'mod_mbox', 'apache', 'jira', 'could', 'its', 'one', 'hi', 'thats', 'youre', '2', '3', 'e', '3d', 'see', 'im', 'youre', 'sounds', 'want', 'totally', '1', 'thanks', 'really', 'great', 'also'))
 #stop.update(('2', '3', 'e', '3d', 'see', 'im', 'youre', 'sounds', 'want', 'totally', '1', 'thanks', 'really', 'great', 'also'))
 
 print(stop)
