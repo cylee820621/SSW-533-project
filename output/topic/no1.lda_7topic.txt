@@ -1,0 +1,13 @@
+[(0, '0.015*"const" + 0.014*"0" + 0.008*"thread" + 0.008*"libsystembdylib" + 0.006*"10" + 0.006*"4" + 0.006*"compatibility" + 0.006*"5" + 0.005*"6" + 0.005*"7"'),
+
+ (1, '0.025*"key" + 0.016*"bitcoin" + 0.014*"wallet" + 0.011*"keys" + 0.011*"file" + 0.010*"private" + 0.009*"added" + 0.007*"20140417" + 0.007*"keypool" + 0.006*"walletdat"'),
+
+ (2, '0.014*"version" + 0.012*"error" + 0.011*"build" + 0.008*"file" + 0.008*"fixed" + 0.007*"windows" + 0.007*"make" + 0.007*"qt" + 0.007*"using" + 0.007*"issue"'), 
+
+(3, '0.014*"lock" + 0.011*"duplicate" + 0.008*"csmain" + 0.008*"20140423" + 0.006*"chris" + 0.006*"controller" + 0.006*"order" + 0.005*"closing" + 0.005*"splash" + 0.005*"click"'), 
+
+(4, '0.021*"block" + 0.018*"error" + 0.014*"new" + 0.014*"threadrpcserver" + 0.013*"tx" + 0.013*"0" + 0.012*"version" + 0.009*"received" + 0.009*"message" + 0.008*"bytes"'), 
+
+(5, '0.051*"checking" + 0.031*"yes" + 0.014*"whether" + 0.012*"c" + 0.012*"g" + 0.010*"reference" + 0.008*"gcc" + 0.007*"undefined" + 0.007*"const" + 0.007*"stdallocator"'),
+
+ (6, '0.008*"issue" + 0.006*"bitcoin" + 0.006*"time" + 0.005*"wallet" + 0.005*"transaction" + 0.005*"use" + 0.005*"block" + 0.005*"transactions" + 0.005*"code" + 0.005*"address"')]

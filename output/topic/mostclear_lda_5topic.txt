@@ -1,0 +1,9 @@
+[(0, '0.019*"transaction" + 0.017*"address" + 0.013*"transactions" + 0.012*"key" + 0.009*"fee" + 0.009*"wallet" + 0.008*"addresses" + 0.007*"send" + 0.007*"private" + 0.006*"0"'), 
+
+(1, '0.018*"const" + 0.012*"threadrpcserver" + 0.010*"0" + 0.007*"libsystembdylib" + 0.007*"thread" + 0.006*"int" + 0.006*"methodgetreceivedbyaddress" + 0.006*"char" + 0.005*"compatibility" + 0.005*"10"'), 
+
+(2, '0.010*"issue" + 0.009*"bitcoin" + 0.005*"use" + 0.005*"problem" + 0.005*"still" + 0.005*"wallet" + 0.004*"need" + 0.004*"code" + 0.004*"time" + 0.004*"block"'), 
+
+(3, '0.030*"checking" + 0.019*"yes" + 0.010*"build" + 0.009*"error" + 0.009*"c" + 0.008*"whether" + 0.008*"make" + 0.008*"version" + 0.007*"g" + 0.007*"boost"'), 
+
+(4, '0.018*"error" + 0.015*"block" + 0.011*"version" + 0.009*"tx" + 0.009*"0" + 0.008*"new" + 0.007*"message" + 0.007*"received" + 0.007*"thread" + 0.006*"added"')]

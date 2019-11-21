@@ -1,0 +1,11 @@
+[(0, '0.014*"threadrpcserver" + 0.007*"email" + 0.007*"const" + 0.007*"directly" + 0.006*"reply" + 0.006*"view" + 0.006*"wrote" + 0.006*"thread" + 0.005*"lock" + 0.005*"git"'), 
+
+(1, '0.040*"checking" + 0.024*"yes" + 0.012*"c" + 0.012*"error" + 0.011*"whether" + 0.009*"g" + 0.009*"boost" + 0.008*"make" + 0.008*"file" + 0.008*"configure"'), 
+
+(2, '0.020*"block" + 0.018*"error" + 0.013*"new" + 0.012*"tx" + 0.011*"version" + 0.009*"received" + 0.009*"0" + 0.009*"message" + 0.007*"added" + 0.006*"thread"'), 
+
+(3, '0.014*"const" + 0.012*"0" + 0.008*"thread" + 0.008*"libsystembdylib" + 0.006*"compatibility" + 0.006*"reference" + 0.006*"10" + 0.006*"undefined" + 0.005*"stdallocator" + 0.005*"4"'), 
+
+(4, '0.023*"transaction" + 0.013*"fee" + 0.012*"transactions" + 0.008*"line" + 0.008*"0" + 0.008*"methodgetreceivedbyaddress" + 0.007*"fixed" + 0.006*"error" + 0.006*"file" + 0.005*"amount"'), 
+
+(5, '0.010*"issue" + 0.010*"bitcoin" + 0.007*"wallet" + 0.006*"use" + 0.006*"problem" + 0.005*"still" + 0.005*"time" + 0.004*"get" + 0.004*"need" + 0.004*"code"')]
