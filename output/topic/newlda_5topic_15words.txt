@@ -1,3 +1,11 @@
+0-server
+1--transaction
+2--github manage, discuss, error
+3--Database
+4--縣城調度
+
+
+
 [(0, '0.008*"thread" + 0.008*"libsystembdylib" + 0.006*"compatibility" + 0.004*"new" + 0.003*"fixed" + 0.003*"gdb" + 0.003*"bitcoinqt" + 0.003*"0x0" + 0.003*"boostdetailvariantvoid" + 0.003*"orgbitcoinbitcoin"'), 
 
 (1, '0.009*"issue" + 0.006*"use" + 0.005*"problem" + 0.005*"still" + 0.004*"using" + 0.004*"block" + 0.004*"transaction" + 0.004*"get" + 0.004*"wallet" + 0.004*"need"'), 
@@ -18,3 +26,54 @@
 (3, '0.037*"checking" + 0.010*"error" + 0.010*"whether" + 0.008*"file" + 0.007*"gcc" + 0.006*"configure" + 0.005*"undefined" + 0.005*"reference" + 0.005*"boost" + 0.004*"install"'), 
 
 (4, '0.021*"error" + 0.019*"block" + 0.013*"tx" + 0.013*"version" + 0.009*"new" + 0.009*"received" + 0.009*"message" + 0.007*"bytes" + 0.007*"processblock" + 0.006*"methodgetreceivedbyaddress"')]
+
+-----------------------------------------
+[(0, '0.008*"libsystembdylib" + 0.006*"compatibility" + 0.006*"file" + 0.006*"thread" + 0.006*"undefined" + 0.006*"reference" + 0.005*"line" + 0.004*"error" + 0.004*"function" + 0.003*"failed"'), 
+
+(1, '0.031*"checking" + 0.009*"error" + 0.006*"email" + 0.006*"version" + 0.006*"configure" + 0.006*"gcc" + 0.005*"reply" + 0.005*"view" + 0.005*"file" + 0.005*"wrote"'), 
+
+(2, '0.010*"key" + 0.008*"using" + 0.008*"methodgetreceivedbyaddress" + 0.007*"bytes" + 0.007*"added" + 0.007*"version" + 0.007*"keypool" + 0.006*"thread" + 0.005*"message" + 0.005*"20170813"'), 
+
+(3, '0.025*"block" + 0.015*"error" + 0.011*"transaction" + 0.010*"fee" + 0.008*"received" + 0.008*"blocks" + 0.008*"sending" + 0.007*"version" + 0.006*"accepted" + 0.006*"processblock"'), 
+
+(4, '0.009*"issue" + 0.006*"wallet" + 0.006*"use" + 0.005*"problem" + 0.004*"still" + 0.004*"time" + 0.004*"address" + 0.004*"get" + 0.004*"need" + 0.004*"code"')]
+----------------------------------------
+[(0, '0.011*"issue" + 0.010*"version" + 0.008*"error" + 0.007*"build" + 0.007*"problem" + 0.007*"fixed" + 0.006*"windows" + 0.006*"file" + 0.006*"using" + 0.005*"try" + 0.005*"still" + 0.005*"running" + 0.005*"bitcoind" + 0.005*"please" + 0.005*"use" + 0.004*"closing" + 0.004*"master" + 0.004*"line" + 0.004*"fix" + 0.004*"work"'), 
+
+(1, '0.049*"checking" + 0.007*"gcc" + 0.007*"reference" + 0.007*"undefined" + 0.006*"error" + 0.005*"define" + 0.005*"result" + 0.004*"library" + 0.004*"cxx" + 0.004*"file" + 0.004*"kb" + 0.004*"libraries" + 0.004*"o2" + 0.004*"compiler" + 0.004*"configure" + 0.003*"linker" + 0.003*"unsigned" + 0.003*"function" + 0.003*"r" + 0.003*"accepts"'), 
+
+(2, '0.010*"thread" + 0.007*"libsystembdylib" + 0.006*"compatibility" + 0.005*"keypool" + 0.005*"file" + 0.005*"key" + 0.004*"line" + 0.004*"added" + 0.003*"gdb" + 0.003*"cnode" + 0.003*"error" + 0.003*"orgbitcoinbitcoin" + 0.003*"last" + 0.003*"bitcoinqt" + 0.003*"failed" + 0.002*"lwp" + 0.002*"stdallocatorchar" + 0.002*"stdchartraitschar" + 0.002*"controller" + 0.002*"inc"'), 
+
+(3, '0.018*"block" + 0.018*"error" + 0.012*"version" + 0.009*"message" + 0.009*"received" + 0.006*"processblock" + 0.006*"updatetip" + 0.006*"bytes" + 0.006*"methodgetreceivedbyaddress" + 0.006*"accepted" + 0.005*"using" + 0.005*"database" + 0.005*"20141124" + 0.005*"accepttomemorypool" + 0.005*"failed" + 0.004*"thread" + 0.004*"sending" + 0.004*"20170813" + 0.004*"init" + 0.003*"data"'),
+
+ (4, '0.008*"wallet" + 0.006*"issue" + 0.006*"time" + 0.005*"block" + 0.005*"transaction" + 0.005*"address" + 0.005*"use" + 0.005*"transactions" + 0.004*"code" + 0.004*"way" + 0.004*"get" + 0.004*"need" + 0.004*"client" + 0.003*"blocks" + 0.003*"change" + 0.003*"key" + 0.003*"even" + 0.003*"still" + 0.003*"something" + 0.003*"problem"')]
+-----------------------------------------
+[(0, '0.012*"issue" + 0.011*"version" + 0.008*"error" + 0.007*"problem" + 0.007*"build" + 0.007*"fixed" + 0.006*"windows" + 0.006*"running" + 0.006*"try" + 0.006*"still" + 0.005*"time" + 0.005*"please" + 0.005*"run" + 0.004*"bitcoind" + 0.004*"file" + 0.004*"fix" + 0.004*"master" + 0.003*"tried" + 0.003*"reproduce" + 0.003*"test"'), 
+
+(1, '0.044*"checking" + 0.008*"error" + 0.008*"gcc" + 0.007*"file" + 0.006*"library" + 0.005*"define" + 0.005*"configure" + 0.004*"static" + 0.004*"libraries" + 0.004*"result" + 0.004*"compiler" + 0.004*"cxx" + 0.004*"directory" + 0.003*"gdb" + 0.003*"unsigned" + 0.003*"build" + 0.003*"files" + 0.003*"linker" + 0.003*"found" + 0.003*"gnu"'), 
+
+(2, '0.010*"file" + 0.009*"line" + 0.007*"duplicate" + 0.006*"error" + 0.005*"failed" + 0.005*"closing" + 0.004*"unknown" + 0.004*"assertion" + 0.004*"checkpoint" + 0.003*"handling" + 0.003*"00" + 0.003*"closed" + 0.003*"fatal" + 0.003*"order" + 0.003*"ebuild" + 0.003*"bitcoinqt" + 0.003*"function" + 0.003*"generated" + 0.002*"signal" + 0.002*"ack"'), 
+
+(3, '0.008*"wallet" + 0.006*"block" + 0.006*"issue" + 0.006*"transaction" + 0.005*"address" + 0.005*"transactions" + 0.004*"code" + 0.004*"key" + 0.004*"need" + 0.004*"time" + 0.004*"client" + 0.004*"change" + 0.004*"blocks" + 0.003*"used" + 0.003*"still" + 0.003*"problem" + 0.003*"something" + 0.003*"case" + 0.003*"network" + 0.003*"know"'), 
+
+(4, '0.011*"block" + 0.010*"error" + 0.009*"thread" + 0.008*"version" + 0.006*"received" + 0.005*"libsystembdylib" + 0.005*"message" + 0.005*"processblock" + 0.004*"updatetip" + 0.004*"methodgetreceivedbyaddress" + 0.004*"compatibility" + 0.004*"accepted" + 0.004*"reference" + 0.003*"accepttomemorypool" + 0.003*"undefined" + 0.003*"data" + 0.003*"sending" + 0.003*"failed" + 0.003*"init" + 0.002*"cnode"')]
+------------------------------------------
+[(0, '0.016*"address" + 0.016*"transaction" + 0.014*"transactions" + 0.013*"key" + 0.008*"wallet" + 0.007*"fee" + 0.007*"addresses" + 0.006*"keys" + 0.006*"private" + 0.005*"network" + 0.005*"send" + 0.005*"coins" + 0.004*"account" + 0.004*"amount" + 0.004*"block" + 0.004*"thread" + 0.004*"keypool" + 0.003*"balance" + 0.003*"btc" + 0.003*"value"'), 
+
+(1, '0.030*"checking" + 0.007*"error" + 0.006*"libsystembdylib" + 0.005*"thread" + 0.005*"compatibility" + 0.004*"file" + 0.004*"version" + 0.004*"gcc" + 0.003*"result" + 0.003*"cxx" + 0.003*"define" + 0.002*"20171215" + 0.002*"orgbitcoinbitcoin" + 0.002*"bitcoinqt" + 0.002*"static" + 0.002*"library" + 0.002*"compiler" + 0.002*"unsigned" + 0.002*"failed" + 0.002*"20151113"'), 
+
+(2, '0.013*"version" + 0.012*"build" + 0.012*"fixed" + 0.006*"windows" + 0.005*"install" + 0.005*"git" + 0.005*"reference" + 0.005*"issue" + 0.005*"email" + 0.005*"directly" + 0.005*"master" + 0.005*"error" + 0.005*"problem" + 0.005*"running" + 0.005*"ubuntu" + 0.005*"github" + 0.005*"reply" + 0.004*"try" + 0.004*"view" + 0.004*"wrote"'), 
+
+(3, '0.028*"block" + 0.014*"error" + 0.011*"blocks" + 0.009*"version" + 0.009*"message" + 0.008*"database" + 0.007*"received" + 0.006*"data" + 0.006*"chain" + 0.005*"time" + 0.005*"disk" + 0.005*"leveldb" + 0.005*"processblock" + 0.005*"methodgetreceivedbyaddress" + 0.005*"accepted" + 0.005*"thread" + 0.004*"memory" + 0.004*"corruption" + 0.004*"network" + 0.004*"connection"'), 
+
+(4, '0.011*"issue" + 0.006*"file" + 0.006*"problem" + 0.006*"code" + 0.006*"wallet" + 0.006*"time" + 0.005*"still" + 0.005*"client" + 0.004*"work" + 0.004*"something" + 0.004*"case" + 0.004*"sure" + 0.004*"closing" + 0.004*"well" + 0.003*"may" + 0.003*"used" + 0.003*"maybe" + 0.003*"change" + 0.003*"good" + 0.003*"right"')]
+--------------------------------------------
+[(0, '0.010*"wallet" + 0.008*"block" + 0.007*"time" + 0.006*"address" + 0.005*"blocks" + 0.005*"client" + 0.005*"key" + 0.004*"transactions" + 0.004*"data" + 0.004*"network" + 0.003*"node" + 0.003*"code" + 0.003*"used" + 0.003*"keys" + 0.003*"addresses" + 0.003*"chain" + 0.003*"problem" + 0.003*"private" + 0.003*"still" + 0.003*"nodes"'), 
+
+(1, '0.016*"issue" + 0.009*"transaction" + 0.007*"closing" + 0.007*"fixed" + 0.006*"code" + 0.006*"fee" + 0.006*"please" + 0.005*"change" + 0.005*"fix" + 0.005*"close" + 0.005*"still" + 0.004*"pull" + 0.004*"closed" + 0.004*"request" + 0.004*"transactions" + 0.004*"problem" + 0.003*"case" + 0.003*"look" + 0.003*"account" + 0.003*"rpc"'), 
+
+(2, '0.033*"checking" + 0.007*"libsystembdylib" + 0.005*"compatibility" + 0.005*"undefined" + 0.005*"reference" + 0.005*"gcc" + 0.004*"thread" + 0.004*"keypool" + 0.004*"key" + 0.003*"result" + 0.003*"cxx" + 0.003*"error" + 0.003*"orgbitcoinbitcoin" + 0.003*"define" + 0.002*"static" + 0.002*"file" + 0.002*"bitcoinqt" + 0.002*"function" + 0.002*"version" + 0.002*"unsigned"'), 
+
+(3, '0.018*"error" + 0.016*"block" + 0.011*"version" + 0.008*"received" + 0.008*"thread" + 0.008*"message" + 0.006*"failed" + 0.006*"processblock" + 0.006*"updatetip" + 0.006*"file" + 0.006*"methodgetreceivedbyaddress" + 0.005*"accepted" + 0.004*"accepttomemorypool" + 0.004*"line" + 0.004*"sending" + 0.004*"data" + 0.004*"init" + 0.003*"database" + 0.003*"invalid" + 0.003*"methodgetbalance"'), 
+
+(4, '0.011*"version" + 0.009*"file" + 0.009*"error" + 0.009*"build" + 0.007*"windows" + 0.007*"issue" + 0.007*"problem" + 0.006*"running" + 0.006*"try" + 0.005*"files" + 0.005*"run" + 0.005*"bitcoinqt" + 0.005*"directory" + 0.004*"still" + 0.004*"bitcoind" + 0.004*"system" + 0.004*"install" + 0.004*"tried" + 0.003*"reproduce" + 0.003*"linux"')]

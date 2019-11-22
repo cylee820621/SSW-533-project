@@ -93,9 +93,14 @@ def creat_actvity_words_dict(words_dict, comments_dict, total_posts):
     cd = comments_dict
     wd = words_dict
     for commenter, posts in cd.items():
-        activity_words_dict[commenter] = [posts/total_posts]
-    for commenter, posts in wd.items():
-        activity_words_dict[commenter].append(posts)
+        if posts/total_posts < 0.1:
+            activity_words_dict[commenter] = [posts/total_posts]
+    for commenter, words in wd.items():
+        if commenter in activity_words_dict:
+            if words/(cd[commenter])< 100:
+                activity_words_dict[commenter].append(words/(cd[commenter]))
+            else:
+                activity_words_dict.pop(commenter)
     return activity_words_dict
 
 def creat_actvity_words_dict_excel(awd):
@@ -119,9 +124,10 @@ if __name__ == "__main__":
     excel = read_excel('data/closed_comment.xlsx') 
     #output_excel(commenter_comments_dict)
     #sentiment_dict = Contributor_total_sentiment(excel)
-    #total_post = total_posts(excel)
-    #commentor_words_dict = commentor_words(excel)
+    total_post = total_posts(excel)
+    commentor_words_dict = commentor_words(excel)
     commenter_comments_dict = get_commenter_comments_dict(excel)
-    #awd = creat_actvity_words_dict(commentor_words_dict,commenter_comments_dict, total_post)
-    #creat_actvity_words_dict_excel(awd)
-    print(commenter_comments_dict)
+    awd = creat_actvity_words_dict(commentor_words_dict,commenter_comments_dict, total_post)
+    print(awd)
+    creat_actvity_words_dict_excel(awd)
+    #print(commenter_comments_dict)

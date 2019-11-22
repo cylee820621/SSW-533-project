@@ -62,7 +62,7 @@ stop = set(stopwords.words('english'))
 exclude = set(string.punctuation)
 lemma = WordNetLemmatizer()
 
-stop.update(('tx','boost','whether','new','boostdetailvariantvoid','0x0','bitcoin','11','make','100','13','void','threadrpcserver','rw','qt','afaik','theuni','000','10','20140417','diff','boostsystemerrorcode','maino','intin','stdallocator','stdchartraits','char','g','c','int','0','1','2','3','4','5','6','7','8','9','const','yes','would', 'like', 'think', 'cassandra', 'mod_mbox', 'apache', 'jira', 'could', 'its', 'one', 'hi', 'thats', 'youre', '2', '3', 'e', '3d', 'see', 'im', 'youre', 'sounds', 'want', 'totally', '1', 'thanks', 'really', 'great', 'also'))
+stop.update(('file','look','used','still','20171215','20151113','view','wrote','maybe','sure','something','work','right','may','good','know','need','fatal','00','gnu','found','splash,''result','bytes','using','added','usb','lukejr','seems','way','csmain','20140423','—','o2','last','use','get','need''still','even','20170813','20141124','stdchartraitschar','stdallocatorchar','kb','r','tx','boost','whether','new','boostdetailvariantvoid','0x0','bitcoin','11','make','100','13','void','threadrpcserver','rw','qt','afaik','theuni','000','10','20140417','diff','boostsystemerrorcode','maino','intin','stdallocator','stdchartraits','char','g','c','int','0','1','2','3','4','5','6','7','8','9','const','yes','would', 'like', 'think', 'cassandra', 'mod_mbox', 'apache', 'jira', 'could', 'its', 'one', 'hi', 'thats', 'youre', '2', '3', 'e', '3d', 'see', 'im', 'youre', 'sounds', 'want', 'totally', '1', 'thanks', 'really', 'great', 'also')),
 #stop.update(('2', '3', 'e', '3d', 'see', 'im', 'youre', 'sounds', 'want', 'totally', '1', 'thanks', 'really', 'great', 'also'))
 
 print(stop)
@@ -98,5 +98,5 @@ Lda = gensim.models.ldamodel.LdaModel
 # Running and Trainign LDA model on the document term matrix.
 ldamodel = Lda(corpus, num_topics=5, id2word = dictionary, passes=50)
 
-print(ldamodel.print_topics(num_topics=5, num_words=10))
+print(ldamodel.print_topics(num_topics=5, num_words=20))
 print('Done!')
