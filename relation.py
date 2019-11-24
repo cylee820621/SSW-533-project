@@ -13,7 +13,7 @@ def file_open(path):
     print('Read data')
     return df
 
-def relation_data(path):
+def relation_data_sorted(path):
     res = []
     df = file_open(path)
       
@@ -21,11 +21,28 @@ def relation_data(path):
         if index == df.shape[0]:
             break
         if df["issue_ID"][index]== df["issue_ID"][index-1]:
-            res.append((df["commenter"][index-1],df["commenter"][index]))
-    return res
+            if df["commenter"][index-1] != df["commenter"][index]:
+                res.append((df["commenter"][index-1],df["commenter"][index]))
+    
+    return [tuple(sorted(i)) for i in res]
+    
+def output_excel(df):
+    a = []
+    b = []
+    c = []
+    for key,value in df.items():
+        a.append(key[0])
+        b.append(key[1])
+        c.append(value)
+    dit = {'commenter1':a, 'commenter2':b, 'weights':c}
+    df = pd.DataFrame(dit)
+    #columns参数用于指定生成的excel中列的顺序
+    df.to_csv(r'relation_data.csv',columns=['commenter1','commenter2','weights'],index=False,sep=',')
+
+
 
 if __name__ == "__main__":
-    path = "data\closed_comment_test.xlsx"
-    data = relation_data(path)
-    c_directed = Counter(data)    #directed relation  ex: [a,b] != [b,a]
-    c_Undirected = Counter(sorted(data))   #undirected relation  ex: [a,b] == [b,a]
+    path = "data\closed_comment.xlsx"
+    data = relation_data_sorted(path)
+    c_Undirected = Counter(data)   #undirected relation  ex: [a,b] == [b,a]
+    output_excel(c_Undirected)
